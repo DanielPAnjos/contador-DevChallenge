@@ -1,0 +1,44 @@
+@media (max-width: 600px){
+    .content-home h1{
+        font-size: 35px;
+    }
+
+    .content-home input{
+        width: 230px;
+    }
+
+    .content-home a{
+        width: 230px;
+    }
+    
+    .content header a{
+        width: 100px;
+    }
+
+    .content header h1{
+        font-size: 30px;
+    }
+
+    .main h1{
+        font-size: 60px;
+    }
+    .return-time .resultado{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .return-time .resultado p{
+        font-size: 40px;
+        margin: 20px 15px;
+    }
+
+    .return-time p.descricao{
+        font-size: 25px;
+    }
+}
+
+@media (max-height: 200px){
+    #contador{
+        height: auto;
+    }
+}

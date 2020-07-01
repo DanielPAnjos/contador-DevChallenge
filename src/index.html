@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+
+    <link rel="stylesheet" href="/public/styles/main.css">
+    <link rel="stylesheet" href="/public/styles/page-home.css">
+    <link rel="stylesheet" href="/public/styles/contador.css">
+    <link rel="stylesheet" href="/public/styles/responsive.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="page-home">
+        <div class="content-home">
+            <h1>Contador</h1>
+            <h3>Informe uma data</h3>
+            
+            <input type="datetime-local" name="data" id="data" value="" min="2020-06-29T00:00"  required>
+            <a type="submit" href="#">Iniciar contagem</a>
+            
+        </div>
+    </div>
+
+    <div id="contador" class="hide">
+        <div class="content">
+            <header>
+                <h1>Contador</h1>
+                <a href="/index.html">Reiniciar</a>
+            </header>
+            <div class="main">
+                <h1>Faltam</h1>
+
+                <div class="return-time">
+                    <div class="resultado">
+                        <div class="dia">
+                            <p id="dia"></p>
+                            <p class="descricao">Dias</p>
+                        </div>
+                        <div class="hora">
+                            <p id="hora"></p>
+                            <p class="descricao">Horas</p>
+                        </div>
+                        <div class="minutos">
+                            <p id="minutos"></p>
+                            <p class="descricao">Minutos</p>
+                        </div>
+                        <div class="segundos">
+                            <p id="segundos"></p>
+                            <p class="descricao">Segundos</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/public/scripts/contador.js"></script>
+</body>
+</html>
